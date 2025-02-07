@@ -15,7 +15,7 @@ class LighthouseController extends Controller
         ]);
 
         $apiUrl = 'https://www.googleapis.com/pagespeedonline/v5/runPagespeed';
-        $apiKey = "AIzaSyC4jDADvd_MbzrQauOiYUPvVF061372o-U";
+        $apiKey = env('LIGHTHOUSE_API');
 
         try {
             $response = Http::retry(3,100)
