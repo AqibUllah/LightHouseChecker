@@ -44,7 +44,7 @@ const getLighthouseScore = async () => {
 
         <!-- Lighthouse Form -->
         <div class="bg-white p-6 rounded-lg shadow-md">
-            <h2 class="text-xl font-semibold mb-4">Get Lighthouse Performance Score</h2>
+            <h2 class="text-xl font-semibold mb-4">Get Site Performance Score (Lighthouse) </h2>
             <form @submit.prevent="getLighthouseScore" class="space-y-4">
                 <div>
                     <label for="url" class="block text-sm font-medium text-gray-700">Website URL</label>
